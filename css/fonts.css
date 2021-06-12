@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?b9ryel');
+  src:  url('../fonts/icomoon.eot?b9ryel#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?b9ryel') format('truetype'),
+    url('../fonts/icomoon.woff?b9ryel') format('woff'),
+    url('../fonts/icomoon.svg?b9ryel#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/gilroy-regular.eot');
+  src: local('☺'), url('../fonts/gilroy-regular.woff') format('woff'), url('../fonts/gilroy-regular.ttf') format('truetype'), url('../fonts/gilroy-regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/gilroy-bold.eot');
+  src: local('☺'), url('../fonts/gilroy-bold.woff') format('woff'), url('../fonts/gilroy-bold.ttf') format('truetype'), url('../fonts/gilroy-bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+[class^="icon-"]::before,
+[class*="icon-"]::before,
+[class^="icon-"]::after,
+[class*="icon-"]::after{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-kov:before {
+  content: "\e900";
+}
+.icon-fire:before {
+  content: "\e901";
+}
+.icon-mail:before {
+  content: "\e902";
+  margin-right: 15px;
+  color: rgba(255, 255, 255, 1);
+}
+.icon-map:before {
+  content: "\e903";
+}
+.icon-number:before {
+  content: "\e904";
+  margin-right: 17px;
+}
+.icon-Rec-bot:after {
+  content: "\e905";
+  font-size: 6px;
+}
+.icon-search:before {
+  content: "\e906";
+}
+.icon-shop:before {
+  content: "\e907";
+}
+.icon-slider:before {
+  content: "\e908";
+}
+.icon-telegram:before {
+  content: "\e909";
+  margin-right: 15px;
+  color: rgba(255, 255, 255, 1);
+}
+.icon-whatsapp:before {
+  content: "\e90a";
+  margin-right: 15px;
+  color: rgba(255, 255, 255, 1);
+}
+
+
